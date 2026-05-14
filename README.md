@@ -8,6 +8,10 @@ Privacy-scoped Surge module forked from blackmatrix7 `AdvertisingLite.sgmodule`.
   - Keeps all reject rules.
   - Keeps a scoped MITM whitelist for ad SDK, ad exchange, tracking / delivery, media ad, and content-platform ad hosts.
   - Excludes account, asset / netdisk, identity, payment, private-content, order, finance, banking, medical, government, and real-name-service hosts.
+- `AdvertisingLite-FullMITM.sgmodule`
+  - Keeps the upstream MITM list and `force-http-engine-hosts`.
+  - Best for temporary compatibility / blocking-effect testing.
+  - Broadest HTTPS decryption scope; not recommended as the long-term default.
 - `AdvertisingLite-NoMITM.sgmodule`
   - Keeps all reject rules.
   - Removes MITM completely.
