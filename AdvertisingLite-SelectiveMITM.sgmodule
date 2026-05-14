@@ -4,8 +4,8 @@
 #!repo=https://github.com/Jack182617/surge-advertisinglite-nomitm
 #!category=blackmatrix7
 #!reject=1229
-#!mitm=61
-#!total=1290
+#!mitm=60
+#!total=1289
 
 [URL Rewrite]
 "^http:\/\/apicloud\.zol\.com\.cn\/Article\/WapLaunchLogo" - reject
@@ -1242,4 +1242,4 @@
 
 
 [MITM]
-hostname = %APPEND% a-zA-Z0-9_-.admobile.top,a-zA-Z0-9_-.tianmu.mobi,ad.cj.sina.cn,ad.life.360.cn,ad.line-scdn.net,ad.lofter.com,ad.mcloud.139.com,ad.myfriday.cn,ad.shunchangzhixing.com,ad.xiaotucc.com,adapi.izuiyou.com,adm.10jqka.com.cn,adpai.thepaper.cn,adproxy.autohome.com.cn,ads-img-al.xhscdn.com,ads.closeli.cn,ads.iconntech.com,ads.zhinengxiyifang.cn,adsoss.zhinengxiyifang.cn,adstatic.peopleapp.com,adui.tg.meitu.com,advertise.bczeducation.cn,adx-cn.anythinktech.com,adx.zuoyebang.com,api-access.pangolin-sdk-toutiao.com,api-ad-product.huxiu.com,api.htp.ad-scope.com.cn,bdsp-x.jd.com,bid.adview.cn,cdn.cmgadx.com,cupid.51job.com,dsp-impr2.youdao.com,dsp-x.jd.com,dsp.fcbox.com,dsp.toutiao.com,dynamicad.kfc.com.cn,ether-pack.pangolin-sdk-toutiao.com,hc-ssp.sm.cn,img.admobile.top,js-ad.ayximgs.com.ad-universe-cdn.hzhcbkj.cn,live-ads.huya.com,m.ads.8le8le.com,m1.ad.10010.com,ma-adx.ctrip.com,mi.gdt.qq.com,mobads-pre-config.cdn.bcebos.com,mobads.baidu.com,news.ssp.qq.com,optimus-ads.amap.com,p1-lm.adukwai.com,pagead2.googleadservices.com,pagead2.googlesyndication.com,pubads.g.doubleclick.net,qadx.qinlinad.com,rtbapi.douyucdn.cn,sdk.tianmu.mobi,sf3-be-pack.pglstatp-toutiao.com,sf3-fe-tos.pglstatp-toutiao.com,ssp.soulapp.cn,t-dsp.pinduoduo.com,zlsdk.1rtb.net
+hostname = %APPEND% a-zA-Z0-9_-.admobile.top,a-zA-Z0-9_-.tianmu.mobi,ad.cj.sina.cn,ad.life.360.cn,ad.line-scdn.net,ad.lofter.com,ad.mcloud.139.com,ad.myfriday.cn,ad.shunchangzhixing.com,ad.xiaotucc.com,adapi.izuiyou.com,adpai.thepaper.cn,adproxy.autohome.com.cn,ads-img-al.xhscdn.com,ads.closeli.cn,ads.iconntech.com,ads.zhinengxiyifang.cn,adsoss.zhinengxiyifang.cn,adstatic.peopleapp.com,adui.tg.meitu.com,advertise.bczeducation.cn,adx-cn.anythinktech.com,adx.zuoyebang.com,api-access.pangolin-sdk-toutiao.com,api-ad-product.huxiu.com,api.htp.ad-scope.com.cn,bdsp-x.jd.com,bid.adview.cn,cdn.cmgadx.com,cupid.51job.com,dsp-impr2.youdao.com,dsp-x.jd.com,dsp.fcbox.com,dsp.toutiao.com,dynamicad.kfc.com.cn,ether-pack.pangolin-sdk-toutiao.com,hc-ssp.sm.cn,img.admobile.top,js-ad.ayximgs.com.ad-universe-cdn.hzhcbkj.cn,live-ads.huya.com,m.ads.8le8le.com,m1.ad.10010.com,ma-adx.ctrip.com,mi.gdt.qq.com,mobads-pre-config.cdn.bcebos.com,mobads.baidu.com,news.ssp.qq.com,optimus-ads.amap.com,p1-lm.adukwai.com,pagead2.googleadservices.com,pagead2.googlesyndication.com,pubads.g.doubleclick.net,qadx.qinlinad.com,rtbapi.douyucdn.cn,sdk.tianmu.mobi,sf3-be-pack.pglstatp-toutiao.com,sf3-fe-tos.pglstatp-toutiao.com,ssp.soulapp.cn,t-dsp.pinduoduo.com,zlsdk.1rtb.net
