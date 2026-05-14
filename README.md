@@ -1,20 +1,25 @@
-# AdvertisingLite-NoMITM
+# Surge AdvertisingLite Safe Fork
 
-Reject-only Surge module forked from blackmatrix7 `AdvertisingLite.sgmodule`.
+Privacy-scoped Surge module forked from blackmatrix7 `AdvertisingLite.sgmodule`.
 
-## What Changed
+## Files
 
-- Removed the entire `[MITM]` section.
-- Removed `force-http-engine-hosts`.
-- Kept only `[URL Rewrite]` reject rules.
-- Pinned upstream source:
-  `blackmatrix7/ios_rule_script@c6623e2040a2192855e378c2106b1b7eaf968cec`
+- `AdvertisingLite-SelectiveMITM.sgmodule`
+  - Keeps all reject rules.
+  - Keeps only a small MITM whitelist for clearly named ad / ad SDK / ad exchange hosts.
+  - Removes broad MITM coverage for account, netdisk, finance, banking, social, and generic app API hosts.
+- `AdvertisingLite-NoMITM.sgmodule`
+  - Keeps all reject rules.
+  - Removes MITM completely.
+  - Safest privacy posture, lower HTTPS path-level blocking coverage.
 
 ## Tradeoff
 
-This version avoids broad HTTPS MITM decryption, which is better for privacy.
-Some HTTPS path-level ad blocking rules may not work without MITM.
+`SelectiveMITM` is the recommended default: it preserves more HTTPS ad blocking
+than `NoMITM`, while avoiding the original module's very broad HTTPS decryption
+scope.
 
-## Usage
+Both files are pinned to upstream source:
+`blackmatrix7/ios_rule_script@c6623e2040a2192855e378c2106b1b7eaf968cec`
 
-Use a raw URL pinned to a commit SHA instead of `master` or `main`.
+Use a raw URL pinned to this repository's commit SHA instead of `main`.
