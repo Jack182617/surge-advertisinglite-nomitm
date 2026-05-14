@@ -1,11 +1,11 @@
 #!name=AdvertisingLite-SelectiveMITM
-#!desc=Forked from blackmatrix7 AdvertisingLite at c6623e2040a2192855e378c2106b1b7eaf968cec; selective ad-only MITM; reject rules preserved
+#!desc=Forked from blackmatrix7 AdvertisingLite at c6623e2040a2192855e378c2106b1b7eaf968cec; scoped ad/stat/media MITM; reject rules preserved
 #!author=Jack182617 (fork), original: blackmatrix7
 #!repo=https://github.com/Jack182617/surge-advertisinglite-nomitm
 #!category=blackmatrix7
 #!reject=1229
-#!mitm=60
-#!total=1289
+#!mitm=93
+#!total=1322
 
 [URL Rewrite]
 "^http:\/\/apicloud\.zol\.com\.cn\/Article\/WapLaunchLogo" - reject
@@ -1242,4 +1242,4 @@
 
 
 [MITM]
-hostname = %APPEND% a-zA-Z0-9_-.admobile.top,a-zA-Z0-9_-.tianmu.mobi,ad.cj.sina.cn,ad.life.360.cn,ad.line-scdn.net,ad.lofter.com,ad.mcloud.139.com,ad.myfriday.cn,ad.shunchangzhixing.com,ad.xiaotucc.com,adapi.izuiyou.com,adpai.thepaper.cn,adproxy.autohome.com.cn,ads-img-al.xhscdn.com,ads.closeli.cn,ads.iconntech.com,ads.zhinengxiyifang.cn,adsoss.zhinengxiyifang.cn,adstatic.peopleapp.com,adui.tg.meitu.com,advertise.bczeducation.cn,adx-cn.anythinktech.com,adx.zuoyebang.com,api-access.pangolin-sdk-toutiao.com,api-ad-product.huxiu.com,api.htp.ad-scope.com.cn,bdsp-x.jd.com,bid.adview.cn,cdn.cmgadx.com,cupid.51job.com,dsp-impr2.youdao.com,dsp-x.jd.com,dsp.fcbox.com,dsp.toutiao.com,dynamicad.kfc.com.cn,ether-pack.pangolin-sdk-toutiao.com,hc-ssp.sm.cn,img.admobile.top,js-ad.ayximgs.com.ad-universe-cdn.hzhcbkj.cn,live-ads.huya.com,m.ads.8le8le.com,m1.ad.10010.com,ma-adx.ctrip.com,mi.gdt.qq.com,mobads-pre-config.cdn.bcebos.com,mobads.baidu.com,news.ssp.qq.com,optimus-ads.amap.com,p1-lm.adukwai.com,pagead2.googleadservices.com,pagead2.googlesyndication.com,pubads.g.doubleclick.net,qadx.qinlinad.com,rtbapi.douyucdn.cn,sdk.tianmu.mobi,sf3-be-pack.pglstatp-toutiao.com,sf3-fe-tos.pglstatp-toutiao.com,ssp.soulapp.cn,t-dsp.pinduoduo.com,zlsdk.1rtb.net
+hostname = %APPEND% *.beacon.qq.com,*.reader.qq.com,a-zA-Z0-9_-.admobile.top,a-zA-Z0-9_-.tianmu.mobi,ad.cj.sina.cn,ad.life.360.cn,ad.line-scdn.net,ad.lofter.com,ad.mcloud.139.com,ad.myfriday.cn,ad.shunchangzhixing.com,ad.xiaotucc.com,adapi.izuiyou.com,adpai.thepaper.cn,adproxy.autohome.com.cn,ads-img-al.xhscdn.com,ads.closeli.cn,ads.iconntech.com,ads.zhinengxiyifang.cn,adsoss.zhinengxiyifang.cn,adstatic.peopleapp.com,adui.tg.meitu.com,advertise.bczeducation.cn,adx-cn.anythinktech.com,adx.zuoyebang.com,api-access.pangolin-sdk-toutiao.com,api-ad-product.huxiu.com,api.htp.ad-scope.com.cn,api.ireader.mobi,bdsp-x.jd.com,bid.adview.cn,bohe.sfo-tx-shanghai-01.saas.sensorsdata.cn,book.img.ireader.com,btrace.qq.com,cdn.cmgadx.com,cupid.51job.com,data-collector.soulapp.cn,dsp-impr2.youdao.com,dsp-x.jd.com,dsp.fcbox.com,dsp.toutiao.com,dss0.bdstatic.com,dynamicad.kfc.com.cn,easyreadfs.nosdn.127.net,esdk.tymcdn.com,ether-pack.pangolin-sdk-toutiao.com,gss0.bdstatic.com,hc-ssp.sm.cn,iadmusicmat.music.126.net,ih2.ireader.com,img.admobile.top,js-ad.ayximgs.com.ad-universe-cdn.hzhcbkj.cn,live-ads.huya.com,m.ads.8le8le.com,ma-adx.ctrip.com,message.shuqireader.com,mi.gdt.qq.com,mobads-pre-config.cdn.bcebos.com,mobads.baidu.com,msg.umengcloud.com,ndstatic.cdn.bcebos.com,news.ssp.qq.com,ocean.shuqireader.com,oimage*.ydstatic.com,optimus-ads.amap.com,p*.pstatp.com,p1-lm.adukwai.com,pagead2.googleadservices.com,pagead2.googlesyndication.com,pubads.g.doubleclick.net,public-deliver9.miguvideo.com,qadx.qinlinad.com,rtbapi.douyucdn.cn,saad.ms.zhangyue.net,sdk.alibaba.com.ailbaba.me,sdk.tianmu.mobi,sdk1xyajs.data.kuiniuca.com,sf3-be-pack.pglstatp-toutiao.com,sf3-fe-tos.pglstatp-toutiao.com,ss0.bdstatic.com,ssp.soulapp.cn,stat.peopleapp.com,static.line-scdn.net,staticlive.douyucdn.cn,staticsns.cdn.bcebos.com,statistic.live.126.net,t-dsp.pinduoduo.com,tb1.bdstatic.com,tb2.bdstatic.com,track.mm.taou.com,tracker-download.oss-cn-beijing.aliyuncs.com,ut2.shuqistat.com,ytmsout.radio.cn
